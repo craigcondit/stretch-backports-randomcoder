@@ -6,7 +6,6 @@ ADD assets /assets
 RUN \
 	echo "deb http://ftp.us.debian.org/debian stretch main non-free contrib" > /etc/apt/sources.list && \
 	echo "deb http://security.debian.org/ stretch/updates main contrib non-free" >> /etc/apt/sources.list && \
-	echo "deb http://ftp.us.debian.org/debian stretch-backports main" >> /etc/apt/sources.list && \
 	echo "deb-src http://ftp.us.debian.org/debian sid main contrib non-free" >> /etc/apt/sources.list && \
 	apt-get update && \
 	apt-get -y install gnupg2 && \
@@ -19,8 +18,7 @@ RUN \
 
 RUN \
 	apt-get update && \
-	apt-get -y -t stretch-backports install dh-python && \
-	apt-get -y install python-all-dev python3-all-dev python-all-dbg python3-all-dbg
+	apt-get -y install dh-python python-all-dev python3-all-dev python-all-dbg python3-all-dbg
 
 ADD patches /patches
 
