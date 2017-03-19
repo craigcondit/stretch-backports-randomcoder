@@ -13,9 +13,6 @@ RUN \
 	apt-key add /assets/bintray-public.key.asc && \
 	apt-get update && \
 	apt-get -y dist-upgrade && \
-	apt-get -y install apt-transport-https && \
-	echo "deb https://dl.bintray.com/insideo/stretch-backports-randomcoder randomcoder main" >> /etc/apt/sources.list && \
-	apt-get update && \
 	apt-get -y install dpkg-dev build-essential devscripts lintian patch patchutils && \
 	rm -rf /var/cache/apt && \
 	mkdir -p /build /packages
