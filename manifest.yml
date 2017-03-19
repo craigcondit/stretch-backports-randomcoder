@@ -70,3 +70,8 @@ repos:
       vcs_url: https://github.com/cyrusimap/cyrus-imapd
       licenses: [ BSD ]
 
+    - name: python-certbot-external-auth
+      desc: External authenticator for Certbot
+      website_url: https://github.com/EnigmaBridge/certbot-external-auth
+      vcs_url: https://github.com/EnigmaBridge/certbot-external-auth
+      licenses: [ "Apache-2.0" ]
