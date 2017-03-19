@@ -1,0 +1,72 @@
+# this file contains all the packages which need to be installed into bintray
+
+repos: 
+
+  stretch-backports-randomcoder:
+
+    - name: cyrus-sasl2-doc
+      desc: Cyrus SASL - documentation
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-2
+      desc: Cyrus SASL - authentication abstraction library
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-dev
+      desc: Cyrus SASL - development files for authentication abstraction library
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules
+      desc: Cyrus SASL - pluggable authentication modules
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules-db
+      desc: Cyrus SASL - pluggable authentication modules (DB)
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules-gssapi-heimdal
+      desc: Pluggable Authentication Modules for SASL (GSSAPI)
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules-gssapi-mit
+      desc: Cyrus SASL - pluggable authentication modules (GSSAPI)
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules-ldap
+      desc: Cyrus SASL - pluggable authentication modules (LDAP)
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules-otp
+      desc: Cyrus SASL - pluggable authentication modules (OTP) 
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: libsasl2-modules-sql
+      desc: Cyrus SASL - pluggable authentication modules (SQL)
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
+    - name: sasl2-bin
+      desc: Cyrus SASL - administration programs for SASL users database
+      website_url: https://www.cyrusimap.org/
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ BSD ]
+
