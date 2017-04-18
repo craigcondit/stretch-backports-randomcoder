@@ -75,3 +75,76 @@ repos:
       website_url: https://github.com/EnigmaBridge/certbot-external-auth
       vcs_url: https://github.com/EnigmaBridge/certbot-external-auth
       licenses: [ "Apache-2.0" ]
+
+    - name: cyrus-admin
+      desc: Cyrus mail system - administration tools
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-caldav
+      desc: Cyrus mail system - CalDAV and CardDAV support
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-clients
+      desc: Cyrus mail system - test clients
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-common
+      desc: Cyrus mail system - common files
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-dev
+      desc: Cyrus mail system - developer files
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-doc
+      desc: Cyrus mail system - documentation files
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-imapd
+      desc: Cyrus mail system - IMAP support
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-murder
+      desc: Cyrus mail system - proxies and aggregator
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-nntpd
+      desc: Cyrus mail system - NNTP support
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-pop3d
+      desc: Cyrus mail system - POP3 support
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: cyrus-replication
+      desc: Cyrus mail system - replication
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: libcyrus-imap-perl
+      desc: Interface to Cyrus imap client imclient library
+      website_url: https://github.com/cyrusimap/cyrus-imapd
+      vcs_url: https://github.com/cyrusimap/cyrus-imapd
+      licenses: [ "GPL-2.0", "GPL-3.0" ]
+
