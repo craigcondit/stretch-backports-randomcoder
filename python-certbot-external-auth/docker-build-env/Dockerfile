@@ -37,7 +37,7 @@ RUN \
 	export DEBEMAIL=ccondit@randomcoder.org && \
 	export DEBFULLNAME="Craig Condit" && \
 	dch -b \
-		-l "~local" \
+		-l "+local" \
 		--distribution stretch-backports-randomcoder \
 		--force-distribution --noquery \
 		'Build for Debian Jessie.' && \
@@ -49,5 +49,5 @@ RUN \
 		'Allow non-interactive usage.' && \
 	debian/rules binary && \
 	cd .. && \
-	cp -f *~local*.deb /packages/
+	cp -f *+local*.deb /packages/
 

@@ -30,7 +30,7 @@ RUN \
 	cd cyrus-imapd-* && \
 	export DEBEMAIL=ccondit@randomcoder.org DEBFULLNAME="Craig Condit" && \
 	dch -b \
-		-l "~local" \
+		-l "+local" \
 		--distribution stretch-backports-randomcoder \
 		--force-distribution --noquery \
 		'Build for Debian Stretch.' && \
@@ -42,6 +42,6 @@ RUN \
 		'CYRUS-IMAPD-1872: Random fatal errors in lib/cyrusdb_twoskip.c.' && \ 
 	debian/rules binary && \
 	cd /build && \
-	cp -f *~local*.deb /packages/ && \
+	cp -f *+local*.deb /packages/ && \
 	rm -f /packages/*-dbgsym*.deb
 
