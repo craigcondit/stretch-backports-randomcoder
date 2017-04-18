@@ -27,11 +27,11 @@ RUN \
 	apt-get -y install python-stdeb && \
 	cd /build && \
 	curl -O \
-		'https://pypi.python.org/packages/52/24/ead3f704e0c57e9b5142b05ebbced7d3416c53cec507e707a5142a25f62b/certbot-external-auth-0.0.6.tar.gz' && \
+		'https://pypi.python.org/packages/43/a6/f0f9db2ac157a4b39efe0920bf1b2d986a4e2d2c0968614070ac0d24c4c8/certbot-external-auth-0.0.8.tar.gz' && \
 	py2dsc \
 		--suite stretch-backports-randomcoder \
 		--maintainer 'Craig Condit <ccondit@randomcoder.org>' \
-		certbot-external-auth-0.0.6.tar.gz && \
+		certbot-external-auth-0.0.8.tar.gz && \
 	cd deb_dist && \
 	cd certbot-external-auth-* && \
 	export DEBEMAIL=ccondit@randomcoder.org && \
