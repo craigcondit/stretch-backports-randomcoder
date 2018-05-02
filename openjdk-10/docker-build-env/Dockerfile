@@ -40,6 +40,11 @@ RUN \
 		--force-distribution --noquery \
 		'Build for Debian Stretch.' && \
 	sed -i 's/fail-missing/list-missing/g' debian/rules && \
+	dch -b \
+		-l "+local" \
+		--distribution stretch-backports-randomcoder \
+		--force-distribution --noquery \
+		'Rebuild due to missing debug info..' && \
 	debian/rules binary && \
 	cd /build && \
 	cp -f *+local*.deb /packages/ && \
