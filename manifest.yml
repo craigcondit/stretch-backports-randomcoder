@@ -202,3 +202,57 @@ repos:
       vcs_url: http://hg.openjdk.java.net/
       licenses: [ "GPL-2.0" ]
 
+    - name: openjdk-9-dbg
+      desc: Java runtime based on OpenJDK (debugging symbols)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-demo
+      desc: Java runtime based on OpenJDK (demos and examples)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-doc
+      desc: OpenJDK Development Kit (JDK) documentation 
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-jdk
+      desc: OpenJDK Development Kit (JDK)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-jdk-headless
+      desc: OpenJDK Development Kit (JDK) (headless)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-jre
+      desc: OpenJDK Java runtime, using Hotspot JIT 
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-jre-headless
+      desc: OpenJDK Java runtime, using Hotspot JIT (headless)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-jre-zero
+      desc: Alternative JVM for OpenJDK, using Zero 
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-9-source
+      desc: OpenJDK Development Kit (JDK) source files
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
