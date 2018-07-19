@@ -8,6 +8,7 @@ RUN \
 	echo "deb http://security.debian.org/ stretch/updates main contrib non-free" >> /etc/apt/sources.list && \
 	echo "deb-src http://ftp.us.debian.org/debian stretch main contrib non-free" >> /etc/apt/sources.list && \
 	echo "deb-src http://ftp.us.debian.org/debian buster main contrib non-free" >> /etc/apt/sources.list && \
+	echo "deb-src http://ftp.us.debian.org/debian sid main contrib non-free" >> /etc/apt/sources.list && \
 	echo "deb http://httpredir.debian.org/debian/ stretch-backports main" >> /etc/apt/sources.list && \
 	echo "deb-src http://httpredir.debian.org/debian/ stretch-backports main" >> /etc/apt/sources.list && \
 	apt-get update && \
