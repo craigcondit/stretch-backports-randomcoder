@@ -256,3 +256,9 @@ repos:
       vcs_url: http://hg.openjdk.java.net/
       licenses: [ "GPL-2.0" ]
 
+    - name: jtreg
+      desc: Regression Test Harness for the OpenJDK platform
+      website_url: http://openjdk.java.net/jtreg
+      vcs_url: http://hg.openjdk.java.net/code-tools/jtreg
+      licenses: [ "GPL-2.0" ]
+
