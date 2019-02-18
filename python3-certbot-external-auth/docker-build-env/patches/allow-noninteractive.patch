@@ -1,0 +1,13 @@
+diff -ur certbot-external-auth-0.0.6.orig/certbot_external_auth/plugin.py certbot-external-auth-0.0.6/certbot_external_auth/plugin.py
+--- certbot-external-auth-0.0.6.orig/certbot_external_auth/plugin.py	2016-11-03 23:42:13.000000000 +0000
++++ certbot-external-auth-0.0.6/certbot_external_auth/plugin.py	2016-11-26 19:55:26.000000000 +0000
+@@ -165,9 +165,6 @@
+         displayer = display_util.FileDisplay(sys.stderr)
+         zope.component.provideUtility(displayer)
+ 
+-        # Non-interactive not yet supported
+-        if self.config.noninteractive_mode and not self.conf("test-mode"):
+-            raise errors.PluginError("Running manual mode non-interactively is not supported (yet)")
+         if not self._is_handler_mode() and self._is_dehydrated_dns():
+             raise errors.PluginError("dehydrated-dns switch is allowed only with handler specified")
+ 

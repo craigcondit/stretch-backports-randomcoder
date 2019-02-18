@@ -24,11 +24,12 @@ ADD patches /patches
 
 RUN \
 	apt-get update && \
-	apt-get -y install python-stdeb && \
+	apt-get -y install python-stdeb python3-setuptools && \
 	cd /build && \
 	curl -O \
                 'https://files.pythonhosted.org/packages/6e/85/6bb20dfb49f2cdb86988c37bc886c39b9a06419694a5ca2a600c3fe463d6/certbot-external-auth-0.1.0.tar.gz' && \
 	py2dsc \
+                --with-python3=True --with-python2=False \
 		--suite stretch-backports-randomcoder \
 		--maintainer 'Craig Condit <ccondit@randomcoder.org>' \
 		certbot-external-auth-0.1.0.tar.gz && \

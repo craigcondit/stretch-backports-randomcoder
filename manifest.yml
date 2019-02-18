@@ -76,6 +76,12 @@ repos:
       vcs_url: https://github.com/EnigmaBridge/certbot-external-auth
       licenses: [ "Apache-2.0" ]
 
+    - name: python3-certbot-external-auth
+      desc: External authenticator for Certbot (Python 3)
+      website_url: https://github.com/EnigmaBridge/certbot-external-auth
+      vcs_url: https://github.com/EnigmaBridge/certbot-external-auth
+      licenses: [ "Apache-2.0" ]
+
     - name: cyrus-admin
       desc: Cyrus mail system - administration tools
       website_url: https://github.com/cyrusimap/cyrus-imapd
@@ -147,6 +153,60 @@ repos:
       website_url: https://github.com/cyrusimap/cyrus-imapd
       vcs_url: https://github.com/cyrusimap/cyrus-imapd
       licenses: [ "GPL-2.0", "GPL-3.0" ]
+
+    - name: openjdk-11-dbg
+      desc: Java runtime based on OpenJDK (debugging symbols)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-demo
+      desc: Java runtime based on OpenJDK (demos and examples)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-doc
+      desc: OpenJDK Development Kit (JDK) documentation 
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-jdk
+      desc: OpenJDK Development Kit (JDK)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-jdk-headless
+      desc: OpenJDK Development Kit (JDK) (headless)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-jre
+      desc: OpenJDK Java runtime, using Hotspot JIT 
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-jre-headless
+      desc: OpenJDK Java runtime, using Hotspot JIT (headless)
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-jre-zero
+      desc: Alternative JVM for OpenJDK, using Zero 
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
+
+    - name: openjdk-11-source
+      desc: OpenJDK Development Kit (JDK) source files
+      website_url: http://openjdk.java.net/projects/jdk/
+      vcs_url: http://hg.openjdk.java.net/
+      licenses: [ "GPL-2.0" ]
 
     - name: openjdk-10-dbg
       desc: Java runtime based on OpenJDK (debugging symbols)
